@@ -19,8 +19,16 @@ I build custom desktop and web software that turns repetitive administrative wor
 - **[Sillage — PerfumierPro](https://mahboubi-younes.github.io/sillage-perfumierpro-demo/)** — activation-gated retail operations demo for perfume shops: POS, inventory, loyalty, sales history, and reporting.
 - **[RH Manager Pro](https://mahboubi-younes.github.io/rh-manager-demo/)** — interactive HR workflow demo for Algerian businesses: employee records, leave, payroll estimates, and reporting.
 - **[PerfumierPro customer history](https://github.com/mahboubi-younes/ParfumHistory)** — QR-friendly purchase-history companion that helps perfume retailers serve returning customers faster.
-- **[Ftorkom Traiteur](https://ftorkomtraiteur.dz/)** — client-facing event-catering website designed to turn online visits into qualified enquiries.
 
+## Project snapshots
+
+### RH Manager Pro
+
+[![RH Manager Pro dashboard](assets/rh-manager-pro.png)](https://mahboubi-younes.github.io/rh-manager-demo/)
+
+### Sillage — PerfumierPro
+
+[![Sillage — PerfumierPro](assets/sillage-perfumierpro.png)](https://mahboubi-younes.github.io/sillage-perfumierpro-demo/)
 ## Tech stack
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?logo=javascript&logoColor=111)

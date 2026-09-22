@@ -31,9 +31,9 @@ The project sections below are generated from the public catalog maintained with
 <!-- GENERATED:ENGINEERING_PROFILE:START -->
 ## Engineering projects
 
-- **RH Manager Pro** — Démonstrateur browser-first pour centraliser les employés, congés, estimations de paie et rapports opérationnels des entreprises algériennes. [Démo](https://mahboubi-younes.github.io/rh-manager-demo/) · [Source](https://github.com/mahboubi-younes/rh-manager-demo)
-- **GEMA Entreprise** — MVP frontend autonome de gestion du parc matériel : affectations, restitutions, maintenance, documents administratifs et traçabilité pour les entreprises algériennes. [Démo](https://mahboubi-younes.github.io/gema-entreprise/) · [Source](https://github.com/mahboubi-younes/gema-entreprise)
-- **Sillage — PerfumierPro** — Système de gestion pour parfumeries : point de vente, inventaire, clients, fidélité, historique des ventes, reporting et tarification par format. [Démo](https://mahboubi-younes.github.io/sillage-perfumierpro-demo/) · [Source](https://github.com/mahboubi-younes/sillage-perfumierpro-demo) · [Source produit](https://github.com/mahboubi-younes/sillage-perfumierpro-source)
+- **RH Manager Pro** — Démonstrateur browser-first pour centraliser les employés, congés, estimations de paie et rapports opérationnels des entreprises algériennes. Limites : données fictives locales; aucun backend; calculs de paie indicatifs. [Démo](https://mahboubi-younes.github.io/rh-manager-demo/) · [Source](https://github.com/mahboubi-younes/rh-manager-demo)
+- **GEMA Entreprise** — MVP frontend autonome de gestion du parc matériel : affectations, restitutions, maintenance, documents administratifs et traçabilité pour les entreprises algériennes. Limites : authentification frontend de démonstration; données fictives propres au navigateur; documents imprimés côté navigateur. [Démo](https://mahboubi-younes.github.io/gema-entreprise/) · [Source](https://github.com/mahboubi-younes/gema-entreprise)
+- **Sillage — PerfumierPro** — Système de gestion pour parfumeries : point de vente, inventaire, clients, fidélité, historique des ventes, reporting et tarification par format. Limites : démo publique protégée par activation; source commerciale privée; accès invité à construire séparément. [Démo](https://mahboubi-younes.github.io/sillage-perfumierpro-demo/) · [Source](https://github.com/mahboubi-younes/sillage-perfumierpro-demo) · [Source produit](https://github.com/mahboubi-younes/sillage-perfumierpro-source)
 
 ## Project snapshots
 
@@ -41,17 +41,23 @@ The project sections below are generated from the public catalog maintained with
 
 **HR workflow management** — tableau de bord · recherche employés · création employé
 
+*Limites :* données fictives locales; aucun backend; calculs de paie indicatifs
+
 [Explorer la démo](https://mahboubi-younes.github.io/rh-manager-demo/) · [Lire le code](https://github.com/mahboubi-younes/rh-manager-demo)
 
 ### GEMA Entreprise
 
 **Enterprise asset management** — dashboard parc · recherche globale · affectation
 
+*Limites :* authentification frontend de démonstration; données fictives propres au navigateur; documents imprimés côté navigateur
+
 [Explorer la démo](https://mahboubi-younes.github.io/gema-entreprise/) · [Lire le code](https://github.com/mahboubi-younes/gema-entreprise)
 
 ### Sillage — PerfumierPro
 
 **Retail operations** — POS · inventaire · clients
+
+*Limites :* démo publique protégée par activation; source commerciale privée; accès invité à construire séparément
 
 [Explorer la démo](https://mahboubi-younes.github.io/sillage-perfumierpro-demo/) · [Lire le code](https://github.com/mahboubi-younes/sillage-perfumierpro-demo)
 

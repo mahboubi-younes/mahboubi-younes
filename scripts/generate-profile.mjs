@@ -1,19 +1,16 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import fs, { readFile, writeFile } from 'node:fs/promises';
 
 const catalogUrl = process.env.PROJECT_CATALOG_URL || 'https://raw.githubusercontent.com/mahboubi-younes/Porftolio/main/projects/catalog.json';
 const readmePath = new URL('../README.md', import.meta.url);
-const catalog = await fetch(catalogUrl).then((response) => {
-  if (!response.ok) throw new Error(`Catalog request failed: ${response.status}`);
-  return response.json();
-});
+const catalog = catalogUrl.startsWith('file:') ? JSON.parse(await fs.readFile(new URL(catalogUrl), 'utf8')) : await fetch(catalogUrl).then((response) => response.ok ? response.json() : Promise.reject(new Error('Catalog request failed: ' + response.status)));
 
 const projects = catalog.projects.filter((project) => project.featured).sort((a, b) => a.snapshotOrder - b.snapshotOrder);
 const featured = projects.map((project) => {
   const links = [`[Démo](${project.demo})`, `[Source](${project.repository})`];
   if (project.sourceRepository) links.push(`[Source produit](${project.sourceRepository})`);
-  return `- **${project.name}** — ${project.description} ${links.join(' · ')}`;
+  return `- **${project.name}** — ${project.description} Limites : ${project.limitations.join('; ')}. ${links.join(' · ')}`;
 }).join('\n');
-const snapshots = projects.map((project) => `### ${project.name}\n\n**${project.category}** — ${project.demoCapabilities.slice(0, 3).join(' · ')}\n\n[Explorer la démo](${project.demo}) · [Lire le code](${project.repository})`).join('\n\n');
+const snapshots = projects.map((project) => `### ${project.name}\n\n**${project.category}** — ${project.demoCapabilities.slice(0, 3).join(' · ')}\n\n*Limites :* ${project.limitations.join('; ')}\n\n[Explorer la démo](${project.demo}) · [Lire le code](${project.repository})`).join('\n\n');
 const generated = `<!-- GENERATED:ENGINEERING_PROFILE:START -->\n## Engineering projects\n\n${featured}\n\n## Project snapshots\n\n${snapshots}\n\n_Generated from the public project catalog. The catalog is the source of truth for project links and capabilities._\n<!-- GENERATED:ENGINEERING_PROFILE:END -->`;
 const readme = await readFile(readmePath, 'utf8');
 const marker = /<!-- GENERATED:ENGINEERING_PROFILE:START -->[\s\S]*?<!-- GENERATED:ENGINEERING_PROFILE:END -->/;

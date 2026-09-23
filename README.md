@@ -66,13 +66,15 @@ The project sections below are generated from the public catalog maintained with
 
 ![Engineering Evidence](./assets/engineering-evidence.svg)
 
-| Project | CI | Tests | Deployment | Live demo | Evidence |
-| --- | --- | --- | --- | --- | --- |
-| **RH Manager Pro** | DETECTED | UNKNOWN | VERIFIED | DETECTED | [Passport](https://github.com/mahboubi-younes/rh-manager-demo/blob/main/engineering-passport.md) |
-| **GEMA Entreprise** | DETECTED | UNKNOWN | VERIFIED | UNKNOWN | [Passport](https://github.com/mahboubi-younes/gema-entreprise/blob/main/engineering-passport.md) |
-| **Sillage — PerfumierPro** | DETECTED | UNKNOWN | VERIFIED | DETECTED | [Passport](https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md) |
+The Passport surfaces only evidence that can be observed from the repository and GitHub.
 
-**VERIFIED** = observed from available GitHub/API execution evidence · **DETECTED** = repository evidence found · **UNKNOWN** = evidence unavailable
+| Project | Build | CI | Deployment | Live demo | Evidence |
+| --- | --- | --- | --- | --- | --- |
+| **RH Manager Pro** | DETECTED | VERIFIED | VERIFIED | VERIFIED | [Passport](https://github.com/mahboubi-younes/rh-manager-demo/blob/main/engineering-passport.md) |
+| **GEMA Entreprise** | VERIFIED | VERIFIED | VERIFIED | VERIFIED | [Passport](https://github.com/mahboubi-younes/gema-entreprise/blob/main/engineering-passport.md) |
+| **Sillage — PerfumierPro** | DETECTED | VERIFIED | VERIFIED | VERIFIED | [Passport](https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md) |
+
+**VERIFIED** = directly observed from available GitHub/API evidence · **DETECTED** = repository evidence found
 
 _Generated from the public project catalog and project Passport artifacts. The catalog remains the source of truth for project links and capabilities._
 <!-- GENERATED:ENGINEERING_PROFILE:END -->

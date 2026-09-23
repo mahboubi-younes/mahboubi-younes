@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T12:08:04.425Z",
+  "generatedAt": "2026-09-23T12:16:39.227Z",
   "repository": {
     "name": "mahboubi-younes/mahboubi-younes",
     "description": "Business automation software portfolio for HR, procurement, inventory, POS, and administrative workflows."
@@ -18,20 +18,20 @@
       "detail": "License file detected"
     },
     "SOURCE": {
-      "status": "unknown",
-      "detail": "Not detected"
+      "status": "detected",
+      "detail": "Source files detected"
     },
     "BUILD": {
       "status": "unknown",
-      "detail": "Not detected"
+      "detail": "Evidence unavailable"
     },
     "CI": {
-      "status": "detected",
-      "detail": "Workflow run found; latest conclusion: in_progress"
+      "status": "verified",
+      "detail": "Latest non-Passport workflow succeeded on 2026-09-22T15:53:06Z"
     },
     "TESTS": {
       "status": "unknown",
-      "detail": "Test files and configurations not detected"
+      "detail": "No test files or test configuration detected in the repository"
     },
     "DEPLOYMENT": {
       "status": "unknown",
@@ -46,8 +46,8 @@
       "detail": "3 screenshot or asset file(s) detected"
     },
     "LIVE DEMO": {
-      "status": "detected",
-      "detail": "URL declared in README: https://img.shields.io/badge/LinkedIn-Younes%20Mahboubi-0A66C2?logo=linkedin&logoColor=white"
+      "status": "unknown",
+      "detail": "Live demo URL not detected"
     }
   },
   "github": {
@@ -63,14 +63,15 @@
       "detail": "GitHub Pages not detected"
     },
     "workflows": {
-      "status": "detected",
-      "detail": "Workflow run found; latest conclusion: in_progress"
+      "status": "verified",
+      "detail": "Latest non-Passport workflow succeeded on 2026-09-22T15:53:06Z"
     },
     "latestRun": {
-      "name": "Engineering Passport",
-      "status": "in_progress",
-      "conclusion": null,
-      "updatedAt": "2026-09-23T12:08:01Z"
+      "name": "Synchroniser le profil depuis le travail",
+      "status": "completed",
+      "conclusion": "success",
+      "updatedAt": "2026-09-22T15:53:06Z",
+      "url": "https://github.com/mahboubi-younes/mahboubi-younes/actions/runs/35750245837"
     }
   },
   "files": {

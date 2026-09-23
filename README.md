@@ -29,25 +29,6 @@ The project sections below are generated from the public catalog maintained with
 - [LinkedIn](https://www.linkedin.com/in/younes-mahboubi/)
 
 
-## Engineering evidence
-
-The flagship projects expose an **Engineering Passport** generated from repository files and GitHub metadata — evidence, not scores.
-
-<table>
-<tr>
-<td align="center"><a href="https://github.com/mahboubi-younes/rh-manager-demo/blob/main/engineering-passport.md"><img src="https://raw.githubusercontent.com/mahboubi-younes/rh-manager-demo/main/engineering-passport.svg" width="250" alt="RH Manager Pro Engineering Passport"></a></td>
-<td align="center"><a href="https://github.com/mahboubi-younes/gema-entreprise/blob/main/engineering-passport.md"><img src="https://raw.githubusercontent.com/mahboubi-younes/gema-entreprise/main/engineering-passport.svg" width="250" alt="GEMA Entreprise Engineering Passport"></a></td>
-<td align="center"><a href="https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md"><img src="https://raw.githubusercontent.com/mahboubi-younes/sillage-perfumierpro-demo/main/engineering-passport.svg" width="250" alt="Sillage PerfumierPro Engineering Passport"></a></td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/mahboubi-younes/rh-manager-demo/blob/main/engineering-passport.md">RH Manager Pro</a></td>
-<td align="center"><a href="https://github.com/mahboubi-younes/gema-entreprise/blob/main/engineering-passport.md">GEMA Entreprise</a></td>
-<td align="center"><a href="https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md">Sillage — PerfumierPro</a></td>
-</tr>
-</table>
-
-**VERIFIED** = observed from available GitHub/API execution evidence · **DETECTED** = repository evidence found · **UNKNOWN** = evidence unavailable
-
 <!-- GENERATED:ENGINEERING_PROFILE:START -->
 ## Engineering projects
 
@@ -81,5 +62,17 @@ The flagship projects expose an **Engineering Passport** generated from reposito
 
 [Explorer la démo](https://mahboubi-younes.github.io/sillage-perfumierpro-demo/) · [Lire le code](https://github.com/mahboubi-younes/sillage-perfumierpro-demo) · [Passport](https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md)
 
-_Generated from the public project catalog. The catalog is the source of truth for project links and capabilities._
+## Engineering evidence
+
+![Engineering Evidence](./assets/engineering-evidence.svg)
+
+| Project | CI | Tests | Deployment | Live demo | Evidence |
+| --- | --- | --- | --- | --- | --- |
+| **RH Manager Pro** | DETECTED | UNKNOWN | VERIFIED | DETECTED | [Passport](https://github.com/mahboubi-younes/rh-manager-demo/blob/main/engineering-passport.md) |
+| **GEMA Entreprise** | DETECTED | UNKNOWN | VERIFIED | UNKNOWN | [Passport](https://github.com/mahboubi-younes/gema-entreprise/blob/main/engineering-passport.md) |
+| **Sillage — PerfumierPro** | DETECTED | UNKNOWN | VERIFIED | DETECTED | [Passport](https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md) |
+
+**VERIFIED** = observed from available GitHub/API execution evidence · **DETECTED** = repository evidence found · **UNKNOWN** = evidence unavailable
+
+_Generated from the public project catalog and project Passport artifacts. The catalog remains the source of truth for project links and capabilities._
 <!-- GENERATED:ENGINEERING_PROFILE:END -->

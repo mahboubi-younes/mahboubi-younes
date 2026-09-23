@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-23T11:03:44.524Z",
+  "repository": {
+    "name": "mahboubi-younes/mahboubi-younes",
+    "description": "Business automation software portfolio for HR, procurement, inventory, POS, and administrative workflows."
+  },
+  "technologies": [
+    "JavaScript"
+  ],
+  "evidence": {
+    "README": {
+      "status": "detected",
+      "detail": "README.md detected"
+    },
+    "LICENSE": {
+      "status": "detected",
+      "detail": "License file detected"
+    },
+    "SOURCE": {
+      "status": "unknown",
+      "detail": "Not detected"
+    },
+    "BUILD": {
+      "status": "unknown",
+      "detail": "Not detected"
+    },
+    "CI": {
+      "status": "detected",
+      "detail": "Workflow run found; latest conclusion: in_progress"
+    },
+    "TESTS": {
+      "status": "unknown",
+      "detail": "Test files and configurations not detected"
+    },
+    "DEPLOYMENT": {
+      "status": "unknown",
+      "detail": "Deployment evidence not detected"
+    },
+    "DOCUMENTATION": {
+      "status": "unknown",
+      "detail": "Documentation structure not detected"
+    },
+    "ASSETS": {
+      "status": "detected",
+      "detail": "2 screenshot or asset file(s) detected"
+    },
+    "LIVE DEMO": {
+      "status": "detected",
+      "detail": "URL declared in README: https://img.shields.io/badge/LinkedIn-Younes%20Mahboubi-0A66C2?logo=linkedin&logoColor=white"
+    }
+  },
+  "github": {
+    "api": {
+      "status": "verified",
+      "detail": "Repository metadata read from GitHub API"
+    },
+    "name": "mahboubi-younes/mahboubi-younes",
+    "description": "Business automation software portfolio for HR, procurement, inventory, POS, and administrative workflows.",
+    "defaultBranch": "main",
+    "pages": {
+      "status": "unknown",
+      "detail": "GitHub Pages not detected"
+    },
+    "workflows": {
+      "status": "detected",
+      "detail": "Workflow run found; latest conclusion: in_progress"
+    },
+    "latestRun": {
+      "name": "Engineering Passport",
+      "status": "in_progress",
+      "conclusion": null,
+      "updatedAt": "2026-09-23T11:03:42Z"
+    }
+  },
+  "files": {
+    "workflows": [
+      ".github/workflows/engineering-passport.yml",
+      ".github/workflows/sync-engineering-profile.yml"
+    ],
+    "tests": [],
+    "docs": [],
+    "assets": [
+      "assets/rh-manager-pro.png",
+      "assets/sillage-perfumierpro.png"
+    ]
+  }
+}

@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main, master]
+ # regenerate with current Engineering Passport
 permissions:
   contents: write
   actions: read

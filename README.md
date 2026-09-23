@@ -14,7 +14,6 @@ I build software you can actually run, inspect and verify.
 - Custom automation for **HR, procurement, inventory, POS, and document workflows**
 - Practical software for operations teams: desktop tools, web apps, and internal dashboards
 - Systems shaped by **5+ years in procurement, HR, and operations** before moving into development
-- Focused, maintainable tools with **no dependency on paid third-party AI APIs**
 
 The project sections below are generated from the public catalog maintained with the portfolio. Links, flagship order, demo capabilities and stated limitations are kept in one place instead of being rewritten manually in two sites.
 ## Tech stack
@@ -28,7 +27,26 @@ The project sections below are generated from the public catalog maintained with
 ## Let’s talk
 
 - [LinkedIn](https://www.linkedin.com/in/younes-mahboubi/)
-- Guru.com profile: link coming soon
+
+
+## Engineering evidence
+
+The flagship projects expose an **Engineering Passport** generated from repository files and GitHub metadata — evidence, not scores.
+
+<table>
+<tr>
+<td align="center"><a href="https://github.com/mahboubi-younes/rh-manager-demo/blob/main/engineering-passport.md"><img src="https://raw.githubusercontent.com/mahboubi-younes/rh-manager-demo/main/engineering-passport.svg" width="250" alt="RH Manager Pro Engineering Passport"></a></td>
+<td align="center"><a href="https://github.com/mahboubi-younes/gema-entreprise/blob/main/engineering-passport.md"><img src="https://raw.githubusercontent.com/mahboubi-younes/gema-entreprise/main/engineering-passport.svg" width="250" alt="GEMA Entreprise Engineering Passport"></a></td>
+<td align="center"><a href="https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md"><img src="https://raw.githubusercontent.com/mahboubi-younes/sillage-perfumierpro-demo/main/engineering-passport.svg" width="250" alt="Sillage PerfumierPro Engineering Passport"></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/mahboubi-younes/rh-manager-demo/blob/main/engineering-passport.md">RH Manager Pro</a></td>
+<td align="center"><a href="https://github.com/mahboubi-younes/gema-entreprise/blob/main/engineering-passport.md">GEMA Entreprise</a></td>
+<td align="center"><a href="https://github.com/mahboubi-younes/sillage-perfumierpro-demo/blob/main/engineering-passport.md">Sillage — PerfumierPro</a></td>
+</tr>
+</table>
+
+**VERIFIED** = observed from available GitHub/API execution evidence · **DETECTED** = repository evidence found · **UNKNOWN** = evidence unavailable
 
 <!-- GENERATED:ENGINEERING_PROFILE:START -->
 ## Engineering projects

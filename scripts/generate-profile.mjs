@@ -36,14 +36,14 @@ const featured = projects.map((project, index) => {
   if (project.sourceRepository) links.push(`[Source produit](${project.sourceRepository})`);
   links.push(`[Passport](${project.repository}/blob/main/engineering-passport.md)`);
   return `- **${project.name}** — ${project.description} Limites : ${project.limitations.join('; ')}. ${links.join(' · ')}`;
-}).join('\\n');
+}).join('\n');
 
 const snapshots = projects.map((project) => `### ${project.name}\\n\\n**${project.category}** — ${project.demoCapabilities.slice(0, 3).join(' · ')}\\n\\n*Limites :* ${project.limitations.join('; ')}\\n\\n[Explorer la démo](${project.demo}) · [Lire le code](${project.repository}) · [Passport](${project.repository}/blob/main/engineering-passport.md)`).join('\\n\\n');
 
 const evidenceRows = projects.map((project, index) => {
   const p = passports[index];
-  return `| **${project.name}** | ${status(p, 'CI')} | ${status(p, 'TESTS')} | ${status(p, 'DEPLOYMENT')} | ${status(p, 'LIVE DEMO')} | [Passport](${project.repository}/blob/main/engineering-passport.md) |`;
-}).join('\\n');
+  return `| **${project.name}** | ${status(p, 'BUILD')} | ${status(p, 'CI')} | ${status(p, 'DEPLOYMENT')} | ${status(p, 'LIVE DEMO')} | [Passport](${project.repository}/blob/main/engineering-passport.md) |`;
+}).join('\n');
 
 const escapeXml = (value) => String(value)
   .replaceAll('&', '&amp;')
@@ -57,7 +57,7 @@ const colorFor = (value) => value === 'VERIFIED' ? '#3fb950' : value === 'DETECT
 const cards = projects.map((project, index) => {
   const p = passports[index];
   const x = 24 + index * 301;
-  const checks = ['CI', 'TESTS', 'DEPLOYMENT', 'LIVE DEMO'];
+  const checks = ['BUILD', 'CI', 'DEPLOYMENT', 'LIVE DEMO'];
   const rows = checks.map((key, row) => {
     const value = status(p, key);
     const y = 135 + row * 38;
@@ -88,7 +88,7 @@ ${snapshots}
 
 ![Engineering Evidence](./assets/engineering-evidence.svg)
 
-| Project | CI | Tests | Deployment | Live demo | Evidence |
+| Project | Build | CI | Deployment | Live demo | Evidence |
 | --- | --- | --- | --- | --- | --- |
 ${evidenceRows}
 
